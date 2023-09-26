@@ -1,7 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: echo-ui
+  name: sujata-deployment
+  namespace: sujata-argocd
 spec:
   replicas: 2
   revisionHistoryLimit: 4
